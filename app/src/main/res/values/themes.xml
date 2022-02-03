@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Testovoe_zadanie" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/elementBackgroundLight</item>
+        <item name="colorPrimaryVariant">@color/elementBackgroundLight</item>
+        <item name="colorOnPrimary">@color/textBlack</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/screenBackgroundLight</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/screenBackgroundLight</item>
+        <item name="android:navigationBarColor">@color/screenBackgroundLight</item>
+    </style>
+
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/elementBackgroundLight</item>
+        <item name="android:textColor">@color/textBlack</item>
+        <item name="android:text">@string/light_mode</item>
+    </style>
+
+    <style name="CustomCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/elementBackgroundLight</item>
+    </style>
+
+</resources>

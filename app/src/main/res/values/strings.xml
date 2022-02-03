@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">testovoe_zadanie</string>
+    <string name="light_mode">LIGHTMODE</string>
+    <string name="dark_mode">DARKMODE</string>
+    <string name="back">BACK</string>
+    <string name="value">Value</string>
+    <string name="date">Date: </string>
+    <string name="sdk">TargetSdkVersion: </string>
+    <string name="apk">APK Size: </string>
+    <string name="title">Title</string>
+    <string name="scan_result">SCAN RESULT</string>
+    <string name="find_all_apps">Find all apps</string>
+    <string name="on_your_phone">on your phone</string>
+    <string name="scan">Scan</string>
+</resources>

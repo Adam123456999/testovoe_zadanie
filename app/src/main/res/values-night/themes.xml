@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Testovoe_zadanie" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Buttons  -->
+        <item name="colorPrimary">@color/screenBackgroundDark2</item>
+
+        <item name="colorPrimaryVariant">@color/elementBackgroundLight</item>
+        <!-- Text  -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/screenBackgroundLight</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/background_dark</item>
+        <item name="android:navigationBarColor">@color/screenBackgroundDark2</item>
+    </style>
+
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/elementBackgroundDark2</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/dark_mode</item>
+    </style>
+
+    <style name="CustomCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/elementBackgroundDark2</item>
+    </style>
+
+</resources>

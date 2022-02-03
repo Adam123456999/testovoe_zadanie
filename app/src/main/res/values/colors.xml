@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screenBackgroundDark1">#34393F</color>
+    <color name="screenBackgroundDark2">#1B1D21</color>
+    <color name="screenBackgroundLight">#E7E7E7</color>
+    <color name="elementBackgroundDark1">#2F3338</color>
+    <color name="elementBackgroundDark2">#1D2024</color>
+    <color name="elementBackgroundLight">#FFFFFF</color>
+    <color name="textBlack">#2F3338</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="shadow">#88222222</color>
+</resources>
